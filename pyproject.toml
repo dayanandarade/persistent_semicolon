@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "semicolon"
+version = "0.1.0"
+description = ""
+authors = ["Betelgeusenova <sagar_wankhede1@persistent.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.37.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
